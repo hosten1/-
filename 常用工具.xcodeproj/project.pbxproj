@@ -14,6 +14,7 @@
 		6D2124711E9F9B390010FC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2124701E9F9B390010FC9A /* Assets.xcassets */; };
 		6D2124741E9F9B390010FC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2124721E9F9B390010FC9A /* LaunchScreen.storyboard */; };
 		6D21247F1E9F9B3A0010FC9A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D21247E1E9F9B3A0010FC9A /* ____Tests.m */; };
+		6D21248C1E9F9BB10010FC9A /* LDLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D21248B1E9F9BB10010FC9A /* LDLocationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6D21247A1E9F9B3A0010FC9A /* 常用工具Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "常用工具Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D21247E1E9F9B3A0010FC9A /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		6D2124801E9F9B3A0010FC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D21248A1E9F9BB10010FC9A /* LDLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLocationModel.h; sourceTree = "<group>"; };
+		6D21248B1E9F9BB10010FC9A /* LDLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLocationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		6D2124631E9F9B390010FC9A /* 常用工具 */ = {
 			isa = PBXGroup;
 			children = (
+				6D2124891E9F9B670010FC9A /* tools */,
 				6D2124671E9F9B390010FC9A /* AppDelegate.h */,
 				6D2124681E9F9B390010FC9A /* AppDelegate.m */,
 				6D21246A1E9F9B390010FC9A /* ViewController.h */,
@@ -109,6 +113,15 @@
 				6D2124801E9F9B3A0010FC9A /* Info.plist */,
 			);
 			path = "常用工具Tests";
+			sourceTree = "<group>";
+		};
+		6D2124891E9F9B670010FC9A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6D21248A1E9F9BB10010FC9A /* LDLocationModel.h */,
+				6D21248B1E9F9BB10010FC9A /* LDLocationModel.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +230,7 @@
 			files = (
 				6D21246C1E9F9B390010FC9A /* ViewController.m in Sources */,
 				6D2124691E9F9B390010FC9A /* AppDelegate.m in Sources */,
+				6D21248C1E9F9BB10010FC9A /* LDLocationModel.m in Sources */,
 				6D2124661E9F9B390010FC9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
